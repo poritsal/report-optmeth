@@ -1,0 +1,23 @@
+\documentclass[a4paper]{article}
+\usepackage[14pt]{extsizes} % для того чтобы задать нестандартный 14-ый размер шрифта
+
+\usepackage[T2A]{fontenc} % семейство шрифтов
+\usepackage[english, russian]{babel} % кодировка шрифтов
+\usepackage[utf8]{inputenc} % кодировка входного файла
+%\usepackage{times}
+
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{natbib}
+\usepackage{xurl}
+
+\usepackage{geometry} % Меняем поля страницы
+\geometry{right=1cm}% правое поле
+\geometry{bottom=2cm}% нижнее поле
+\geometry{top=2cm}% верхнее поле
+\geometry{left=3cm}% левое поле
+
+\begin{document}
+    \tableofcontents % это оглавление, которое генерируется автоматически
+    \include{content}
+\end{document}
